@@ -13,13 +13,29 @@ function rest(object){
     object.health = 10;
     return object;
 }
-function pickUpItem(){
-}
+
 function equipWeapon () {
 }
+
 hero.health = 10
 
 document.getElementById("inn").addEventListener("click", function () {
     hero.health = 10;
 });
-  
+
+//  new variables 
+const testWeapon = {type : 'dagger', damage : 2}
+const testHero = {inventory: [undefined,]}
+
+// function 
+function pickUpItem(testHero, testWeapon){
+    testHero.inventory.push(testWeapon)
+}
+
+const weaponTest = { type: 'dagger', damage: 2 }
+
+document.getElementById("dagger").addEventListener("click", function () {
+    pickUpItem(hero, testWeapon)
+});
+
+
