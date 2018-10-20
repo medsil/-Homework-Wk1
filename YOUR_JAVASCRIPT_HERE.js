@@ -3,4 +3,5 @@ let hero = {
     name: "",
     heroic: true,
     inventory: [],
+    health: 10,
 }
