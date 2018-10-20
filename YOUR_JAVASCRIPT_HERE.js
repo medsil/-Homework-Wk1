@@ -14,9 +14,6 @@ function rest(object){
     return object;
 }
 
-function equipWeapon () {
-}
-
 hero.health = 10
 
 document.getElementById("inn").addEventListener("click", function () {
@@ -37,4 +34,5 @@ document.getElementById("dagger").addEventListener("click", function () {
     pickUpItem(hero, testWeapon)
 });
 
-
+function equipWeapon () {
+}
