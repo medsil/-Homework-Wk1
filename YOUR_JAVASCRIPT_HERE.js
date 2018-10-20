@@ -2,4 +2,5 @@
 let hero = {
     name: "",
     heroic: true,
+    inventory: [],
 }
