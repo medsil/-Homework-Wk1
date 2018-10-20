@@ -17,3 +17,9 @@ function pickUpItem(){
 }
 function equipWeapon () {
 }
+hero.health = 10
+
+document.getElementById("inn").addEventListener("click", function () {
+    hero.health = 10;
+});
+  
