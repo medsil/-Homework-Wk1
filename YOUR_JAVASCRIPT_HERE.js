@@ -14,6 +14,9 @@ function rest(object){
     return object;
 }
 
+// function equipWeapon () {
+// }
+
 hero.health = 10
 
 document.getElementById("inn").addEventListener("click", function () {
@@ -24,7 +27,7 @@ document.getElementById("inn").addEventListener("click", function () {
 const testWeapon = {type : 'dagger', damage : 2}
 const testHero = {inventory: [undefined,]}
 
-// adjustments to function 
+// adjustments to function
 function pickUpItem(testHero, testWeapon){
     testHero.inventory.push(testWeapon)
 }
@@ -34,5 +37,14 @@ document.getElementById("dagger").addEventListener("click", function () {
     pickUpItem(hero, testWeapon)
 });
 
-function equipWeapon () {
+
+// adjustments to function new variable declared
+const testHero2 = { weapon: { type: 'sword', damage: 5 }, inventory: [ { type: 'dagger', damage: 2 } ] }
+const testWeapon2 = testHero2.weapon
+const inventoryWeapon = testHero2.inventory[0]
+
+//equipWeapon(testHero)
+
+function equipWeapon(){
+        
 }
