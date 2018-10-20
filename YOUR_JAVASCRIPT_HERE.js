@@ -46,5 +46,6 @@ const inventoryWeapon = testHero2.inventory[0]
 //equipWeapon(testHero)
 
 function equipWeapon(){
-        
+    // inventoryWeapon.type = testWeapon2.type;
+    // inventoryWeapon.damage = testWeapon2.damage
 }
