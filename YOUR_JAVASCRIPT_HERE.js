@@ -27,13 +27,12 @@ document.getElementById("inn").addEventListener("click", function () {
 const testWeapon = {type : 'dagger', damage : 2}
 const testHero = {inventory: [undefined,]}
 
-// function 
+// adjustments to function 
 function pickUpItem(testHero, testWeapon){
     testHero.inventory.push(testWeapon)
 }
 
 const weaponTest = { type: 'dagger', damage: 2 }
-
 document.getElementById("dagger").addEventListener("click", function () {
     pickUpItem(hero, testWeapon)
 });
