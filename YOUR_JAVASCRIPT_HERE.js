@@ -9,8 +9,10 @@ let hero = {
         damage : 2,
     }
 }
-function rest(){
- 
+function rest(object){
+    object.health = 10;
+    return object;
+}
 function pickUpItem(){
 }
 function equipWeapon () {
